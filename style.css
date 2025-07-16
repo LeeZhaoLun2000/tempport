@@ -1,0 +1,133 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  background: linear-gradient(to right, #f8fbff, #eef3fa);
+}
+
+.text-content {
+  max-width: 60%;
+}
+
+.text-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.social-icons a img {
+  margin-right: 10px;
+}
+
+.action-buttons .btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background: #4c6ef5;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.profile-pic img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.section {
+  padding: 60px 10%;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.skill-group {
+  margin-bottom: 20px;
+}
+
+.skill-group h4 {
+  margin-bottom: 10px;
+}
+
+.skill-group span {
+  display: inline-block;
+  background: #e0e7ff;
+  color: #333;
+  padding: 5px 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 5px;
+}
+
+.contact-form form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background: #4c6ef5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  font-size: 0.9rem;
+}
